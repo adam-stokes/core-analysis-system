@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: cas
+Version: 0.14
+Summary: CAS - automated core setup
+Home-page: http://fedorahosted.org/cas
+Author: Adam Stokes
+Author-email: astokes@fedoraproject.org
+License: GPLv3+
+Description: Core analysis system.
+Platform: Linux

@@ -1,0 +1,10 @@
+include cas.conf
+include cas.1.gz
+include cas-admin.1.gz
+include LICENSE
+include README
+include AUTHORS
+recursive-include doc *
+recursive-include snippets *
+recursive-include contrib *
+recursive-include tests *
