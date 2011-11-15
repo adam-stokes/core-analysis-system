@@ -1,3 +1,0 @@
-#!/bin/sh
-echo "sys >> sys"
-echo "sys -c >> sys"

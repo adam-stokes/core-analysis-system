@@ -1,0 +1,17 @@
+{
+	"_comment": "Load data fixtures into db",
+	{
+		"passthrough": ["hash_login"],
+		"attrs":
+		[
+			{
+				"username" : "stokes@stokes.com",
+				"password" : "password01"
+			},
+			{
+				"username" : "test1@testing.com",
+				"password" : "password01"
+			}
+		]
+	}
+}

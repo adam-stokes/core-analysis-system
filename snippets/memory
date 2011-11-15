@@ -1,3 +1,0 @@
-#!/bin/sh
-echo "kmem >> memory"
-echo "kmem -f >> memory"

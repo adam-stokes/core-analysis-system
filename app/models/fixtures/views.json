@@ -1,0 +1,16 @@
+{
+	"_comment" : "Dict for views",
+	"theme" : "default",
+	"views" : {
+		{ "index" : {
+			"request": ["get", "post"],
+			"template": ["index.html"]
+			}
+		},
+		{ "help" : { 
+			"request": ["get"],
+			"template": ["help.html"]
+			}
+		}
+	}
+}

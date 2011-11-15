@@ -1,6 +1,0 @@
-<%inherit file="base.html" />
-<h1>Job List</h1>
-<hr />
-%for job in job_query:
-    <a href="/status/?id=${job.jobId}">${job.jobId} :: ${job.vmcore}</a><br />
-%endfor

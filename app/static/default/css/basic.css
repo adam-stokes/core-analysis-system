@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Changa+One|Terminal+Dosis:400,800);
+body {
+	margin-top: 0;
+	font-family: 'Terminal Dosis', sans-serif;
+	font-size: 15px;
+}
+#container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sleektitle {
+	font-size: 5em;
+	font-weight: bold;
+	color: rgb(255,0,0);
+	font-family: 'Changa One', sans-serif;
+	text-shadow: 2px 2px 2px rgb(0,0,0);
+	width: 500px;
+}
+
+.sleektitle .blog {
+	font-size: 15px;
+}
+
+#header {
+	border-bottom: 1px solid rgb(240,240,240);
+}
+
+#footer {
+	margin-top: 25px;
+	border-top: 1px solid rgb(240,240,240);
+}
+
+.header-menu {
+	float: right;
+	width: 250px;
+}
+
+a {
+	color: blue;
+}
+
+.clearfix {
+	clear:both;
+}
+
+#left-content {
+	float:left;
+	width: 700px;
+	padding-right: 10px;
+	border-right: 1px solid rgb(240,240,240);
+}
+
+#right-content {
+	float: left;
+	width: 200px;
+	margin-left: 10px;
+}
+
+.back-button, .edit-button {
+	border: 1px solid rgb(220,220,220);
+	background-color: rgb(240,240,240);
+	color: rgb(150,150,150);
+	font-weight: bold;
+	width: 100px;
+	height: 30px;
+	border-radius: 2px;
+}
+
+.back-button:hover, .edit-button:hover {
+	border: 1px solid rgb(200,200,200);
+	color: rgb(0,0,0);
+	box-shadow: 0px 1px 1px rgb(200,200,200);
+	cursor: pointer;
+}
+
+input {
+	border: 1px solid rgb(220,220,220);
+	background-color: rgb(240,240,240);
+	color: rgb(100,100,100);
+	border-radius: 5px;
+	padding: 5px;
+}
