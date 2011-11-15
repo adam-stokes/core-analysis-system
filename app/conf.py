@@ -1,8 +1,8 @@
 import os
 
-SITENAME = "sleekFMK"
+SITENAME = "cas"
 SITELOGO = "logo_icon.jpg"
-SITESLOGAN = "wreakin web since '02"
+SITESLOGAN = "core analysis system"
 SITEREV = "47b3a381698a"
 # Top level absolute path of application
 SLEEKAPP = os.path.abspath(os.path.dirname(__file__))
@@ -21,4 +21,4 @@ more_req_pkgs = [
     # python-libxml2
 ]
 
-PIDFILE_PATH='/var/run/sleekfmk.pid'
+PIDFILE_PATH='/var/run/cas.pid'

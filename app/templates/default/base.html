@@ -17,9 +17,6 @@
 	<span class="sleektitle">{% if SITELOGO %}<img src="/media/img/{{ SITELOGO }}" />{% end %}{{ SITENAME or "sleekFMK" }}</span>
 	<span class="header-menu">
 		<a href="/">Home</a>
-		{% if current_user %}
-		<br />you are in. [ <a href="/user/logout">logout</a> ]
-		{% end %}
 	</span>
 </div>
 {% end %}
@@ -29,11 +26,7 @@
 <div class="clearfix"><!--nbsp--></div>
 {% block footer %}
 <div id="footer">
-	&copy; <a href="http://ajscg.com/">AJS Consulting Group</a> | rev{{ SITEREV }}
-	<p>
-	<a href="https://twitter.com/ajscg" class="twitter-follow-button" data-show-count="false">Follow @ajscg</a>
-<script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
-	</p>
+	rev{{ SITEREV }} | powered by <a href="http://sleekfmk.ajscg.com">sleekFMK</a>
 </div>
 {% end %}
 </div>
