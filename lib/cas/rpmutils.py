@@ -17,7 +17,7 @@ import sys
 import logging
 import time
 
-from cas.cas_subprocess import Popen, PIPE
+from subprocess import Popen, PIPE
 
 class RPMException(Exception): pass
 

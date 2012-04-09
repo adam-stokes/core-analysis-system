@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python2.7
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
 #    the Free Software Foundation, either version 3 of the License, or
@@ -22,7 +22,8 @@ import smtplib
 import socket
 import paramiko
 
-from cas.cas_subprocess import Popen, PIPE
+from subprocess import Popen, PIPE
+import shutil
 from datetime import datetime
 
 from cas.network import Download, Executor, CasNetworkException
@@ -31,12 +32,8 @@ from cas.db import CasStorage, CasStorageException
 from cas.util import UtilBase, Logging
 from cas.rpmutils import RPMBase
 
-# shutil from python 2.6 includes several enhancements for our use
-# mainly in the _move_ method.
-import cas.cas_shutil as shutil
-
 if sys.version_info[:2] < (2,3):
-    raise SystemExit("Python >= 2.3 required")
+    raise SystemExit("Python >= 2.7 required")
 
 # Configuration parsing of /etc/cas.conf
 # TODO: rework config read to place all items
